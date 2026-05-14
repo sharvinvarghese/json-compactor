@@ -15,7 +15,7 @@ When you send JSON to an LLM, every whitespace character counts as tokens:
 ```json
 // Pretty JSON — 143 bytes, ~36 tokens
 {
-  "name": "Sharvin",
+  "name": "Ronald",
   "role": "developer",
   "skills": [
     "Python",
@@ -27,7 +27,7 @@ When you send JSON to an LLM, every whitespace character counts as tokens:
 
 ```json
 // Compact JSON — 58 bytes, ~15 tokens ✅
-{"name":"Sharvin","role":"developer","skills":["Python","ML","Data"]}
+{"name":"Ronald","role":"developer","skills":["Python","ML","Data"]}
 ```
 
 **That's a ~58% reduction on this example alone.**
